@@ -1,0 +1,17 @@
+{
+  "name": "com.alekossta.vrdebugpackage",
+  "version": "1.0.0",
+  "displayName": "VR Debug Package",
+  "description": "A package for helping you debug in VR application",
+  "unity": "6000.0",
+  "unityRelease": "43f1",
+  "keywords": [
+    "VR",
+    "Debug"
+  ],
+  "author": {
+    "name": "Alexandors Stavrinoudakis",
+    "email": "alekosstavrinoudakis@gmail.com",
+    "url": "https://www.unity3d.com"
+  }
+}
