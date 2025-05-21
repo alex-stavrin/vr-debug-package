@@ -1,16 +1,38 @@
+using TMPro;
 using UnityEngine;
+
+public enum PrintTypeVRC
+{
+    Clear,
+    Append
+}
 
 public class VirtualRealityConsole : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] TextMeshProUGUI logText;
+
+    static VirtualRealityConsole instance;
+
+    private void Awake()
     {
-        
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public static void PrintMessage(string message, PrintTypeVRC printType = PrintTypeVRC.Append)
     {
-        
+        if (printType == PrintTypeVRC.Clear)
+        {
+            instance.logText.text = message + '\n';
+        }
+        else if (printType == PrintTypeVRC.Append)
+        {
+            instance.logText.text += message + '\n';
+        }
     }
 }

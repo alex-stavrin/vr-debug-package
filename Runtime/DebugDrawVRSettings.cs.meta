@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 1c43ac5983904bd4da80328951c14678
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - wireFrameMaterial: {fileID: 2100000, guid: fd83f66951f2602469833e23c68adc03, type: 2}
+  - cubeMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
