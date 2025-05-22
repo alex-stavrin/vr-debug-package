@@ -7,7 +7,7 @@ public class CreateVirtualRealityConsole
     static void CreateMyObject(MenuCommand menuCommand)
     {
         var prefab = AssetDatabase.LoadAssetAtPath<GameObject>(
-            "Packages/com.alekossta.vrdebugpackage/Runtime/Prefabs/Canvas.prefab"
+            "Packages/com.alex-stavrin.vr-debug-package/Prefabs/Canvas.prefab"
         );
         if (prefab == null)
         {
