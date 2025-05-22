@@ -23,5 +23,13 @@ The print type can be:
 
 # Drawing debug shapes
 
-## Draw a cube
-DebugDrawVR.DrawCube(Vector3 position, Quaternion rotation, Vecto3 scale, Color color);
+The debug shapes work well with the 3D primitive colliders.
+
+## Draw Cube
+DebugDrawVR.DrawCube(Vector3 position, Quaternion rotation, Vector3 scale, Color color);
+
+## Draw Sphere
+DebugDrawVR.DrawSphere(Vecto3 position, Quaternion rotation, float radius, Color color);
+
+## Draw Cylinder
+DebugDrawVR.DrawCylinder(Vecto3 position, Quaternion rotation, float raidus, float height, Color color);

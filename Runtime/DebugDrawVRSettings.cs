@@ -5,6 +5,8 @@ public class DebugDrawVRSettings : ScriptableObject
 {
     public Material wireFrameMaterial;
     public Mesh cubeMesh;
+    public Mesh sphereMesh;
+    public Mesh capsuleMesh;
 
     static DebugDrawVRSettings _instance;
     public static DebugDrawVRSettings Instance
