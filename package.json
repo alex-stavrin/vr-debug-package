@@ -1,5 +1,5 @@
 {
-  "name": "com.alekossta.vrdebugpackage",
+  "name": "com.alex-stavrin.vr-debug-package",
   "version": "1.0.0",
   "displayName": "VR Debug Package",
   "description": "A package for helping you debug in VR application",
