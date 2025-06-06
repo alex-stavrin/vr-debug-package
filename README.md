@@ -6,6 +6,7 @@ or the XR Interaction Toolkit of Unity.
 # Features
 
 - Virtual Reality Console
+- Virtual Reality Stats
 - Drawing debug shapes at runtime
 
 # Virtual Reality Console
@@ -20,6 +21,11 @@ VirtualRealityConsole.PrintMessage(string message, PrintTypeVRC printType)
 The print type can be:
 - PrintTypeVRC.Clear. This clear the console and display then your message
 - PrintTypeVRC.Append. This will add your message to your already existing messages.
+
+# Virtual Reality Stats
+A canvas that shows current FPS and Batches/Draw Calls.
+
+To easily add to your scence. Right click on hierarchy and go VR Debug Package -> Virtual Reality Stats
 
 # Drawing debug shapes
 
